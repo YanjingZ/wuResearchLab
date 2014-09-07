@@ -1,0 +1,159 @@
+
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <title>README</title>
+</head>
+<body>
+
+<h2>
+<font face="Arial,Helvetica"><font size=+1>README</font></font></h2>
+
+<hr WIDTH="100%">
+<p><b><font face="Arial,Helvetica">
+Overview</font></b>
+<p><font face="Arial,Helvetica"><font size=-1>Project Structure.</font></font>
+
+<table BORDER COLS=2 WIDTH="100%" >
+<tr>
+<td><b><font face="Arial,Helvetica"><font size=-1>Folder/File</font></font></b></td>
+
+<td><b><font face="Arial,Helvetica"><font size=-1>Purpose</font></font></b></td>
+
+</tr>
+
+<tr>
+<td>
+<li><font face="Arial,Helvetica"><font size=-1>wuResearchLab/css</font></font></li>
+<li><font face="Arial,Helvetica"><font size=-1>wuResearchLab/fonts</font></font></li>
+<li><font face="Arial,Helvetica"><font size=-1>wuResearchLab/js</font></font></li>
+</td>
+
+<td><font face="Arial,Helvetica"><font size=-1>Describes the look and formatting of a document written in a markup language(HTML in this project).<br>No need to modify them if you only want to do maintenance work.</font></font></td>
+
+<tr>
+<td>
+<li><font face="Arial,Helvetica"><font size=-1>wuResearchLab/images</font></font></li>
+</td>
+
+<td><font face="Arial,Helvetica"><font size=-1>Stores all the image sources used in this website.</font></font></td>
+
+</tr>
+
+<tr>
+<td><li><font face="Arial,Helvetica"><font size=-1><a href="index.html">wuResearchLab/index.html</a></font></font></li>
+</td>
+<td><font face="Arial,Helvetica"><font size=-1>Describes the structure of Homepage semantically along with cues for presentation</font></font></td>
+</tr>
+
+<tr>
+<td><li><font face="Arial,Helvetica"><font size=-1><a href="research.html">wuResearchLab/research.html</a></font></font></li>
+</td>
+<td><font face="Arial,Helvetica"><font size=-1>Describes the structure of Research Page semantically along with cues for presentation</font></font></td>
+</tr>
+
+<tr>
+<td><li><font face="Arial,Helvetica"><font size=-1><a href="people.html">wuResearchLab/people.html</a></font></font></li>
+</td>
+<td><font face="Arial,Helvetica"><font size=-1>Describes the structure of People Page semantically along with cues for presentation</font></font></td>
+</tr>
+
+<tr>
+<td><li><font face="Arial,Helvetica"><font size=-1><a href="publication.html">wuResearchLab/publication.html</a></font></font></li>
+</td>
+<td><font face="Arial,Helvetica"><font size=-1>Describes the structure of Publication Page semantically along with cues for presentation</font></font></td>
+</tr>
+
+<tr>
+<td><li><font face="Arial,Helvetica"><font size=-1><a href="news.html">wuResearchLab/news.html</a></font></font></li>
+</td>
+<td><font face="Arial,Helvetica"><font size=-1>Describes the structure of News Page semantically along with cues for presentation</font></font></td>
+</tr>
+
+<tr>
+<td><li><font face="Arial,Helvetica"><font size=-1><a href="gallery.html">wuResearchLab/gallery.html</a></font></font></li>
+</td>
+<td><font face="Arial,Helvetica"><font size=-1>Describes the structure of Gallery Page semantically along with cues for presentation</font></font></td>
+</tr>
+
+
+</table>
+
+<p><a NAME="Invoking Example Templates"></a><b><font face="Arial,Helvetica">Maintaining the Website</font></b>
+<blockquote><font face="Arial,Helvetica"><font size=-1>All the maintenance work can be done within seven html files.</font></font>
+
+<p><b><font face="Arial,Helvetica"><font size=-1>1. Change the page title.</font></font></b>
+<pre>&lt;title&gt;wuResearch&lt;/title&gt;</pre>
+
+<p><b><font face="Arial,Helvetica"><font size=-1>2. Insert an hyperlink</font></font></b>
+<pre>&lt;a href="http://www.w3school.com.cn"&gt;This is a link&lt;/a&gt;</pre>
+
+<p><b><font face="Arial,Helvetica"><font size=-1>3. Insert an image</font></font></b>
+<pre>&lt;img src="sample.jpg" width="104" height="142" /&gt;</pre>
+
+<p><b><font face="Arial,Helvetica"><font size=-1>4. Add post to Homepage</font></font></b>
+<br>a. Add news:
+<pre>
+Add
+&lt;div class="p1_box right cl2"&gt;
+	&lt;div class="gray_block"&gt;
+		&lt;b&gt;XXX 2014&lt;/b&gt;:&lt;br&gt;
+		new News.
+	&lt;/div&gt;
+&lt;/div&gt;
+Under
+&lt;div class="grid_5"&gt;...&lt;div&gt;
+</pre>
+b. Add photos:
+<pre>
+Add
+&lt;div class="p1_box left cl3 "&gt;
+	&lt;img src="images/new.jpg" alt=""&gt;
+	a href="index-2.html" class="bot"&gt;New&lt;/a&gt;
+&lt;/div&gt;
+Under
+&lt;div class="grid_7"&gt;...&lt;div&gt;
+</pre>
+
+<p><b><font face="Arial,Helvetica"><font size=-1>5. Add research project to Research Page</font></font></b>
+<pre>
+Add
+&lt;div class="clear">&lt;/div&gt;			
+&lt;div class="grid_12 "style="border-top: 3px solid #2a394e;background-color: #CEE3F6;"&gt;	
+	&lt;h3 style="padding-top:15px;text-align:center"&gt;&lt;b&gt;Research Project Name&lt;/b&gt;&lt;/h3&gt;
+	&lt;h3 style="padding:0 70px 15px 0px;text-align:right"&gt;&lt;b&gt;-----Funded by XXX&lt;/b&gt;&lt;/h3&gt;
+&lt;/div&gt;				
+&lt;div class="clear"&gt;&lt;/div&gt;
+&lt;div class="grid_12" &gt;
+	&lt;div style="width:55%;padding-left:5px;float:left;"&gt;
+		&lt;h6 style="text-indent: 3em;text-align:justify;padding-top:10px"&gt;Description. &lt;/h6&gt;&lt;br&gt;
+	&lt;/div&gt;
+	&lt;div style="float:right;padding-right:5px;padding-top:6%;width:43%"&gt;
+		&lt;img style="text-align:center;"src="images/exp1.jpg"&gt;
+	&lt;/div>				
+&lt;/div&gt;
+Under
+&lt;div class="container_12"&gt;...&lt;/div&gt;
+</pre>
+<p><b><font face="Arial,Helvetica"><font size=-1>6. Add publication to Publication Page</font></font></b>
+<pre>
+Add
+&lt;b&gt;Jan 2014&lt;/b&gt;: News  &lt;br&gt;&lt;br&gt;
+Under
+&lt;h6&gt;...&lt;/h6&gt;
+</pre>
+<p><b><font face="Arial,Helvetica"><font size=-1>7. Add news to News Page</font></font></b>
+<pre>
+Add
+No. People, "Paper Name", &lt;b&gt;Journal/Conference Name&lt;/b&gt; (2014)
+&lt;br&gt;&lt;br&gt;				
+Under
+&lt;h6&gt;...&lt;/h6&gt;
+</pre>
+
+</blockquote>
+<p><a NAME="Invoking Example Templates"></a><b><font face="Arial,Helvetica">Contact</font></b>
+<br><font face="Arial,Helvetica"><font size=-1>Any question please contact koprenee@gmail.com.</font></font>
+
+</body>
+</html>
